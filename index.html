@@ -32,17 +32,122 @@ body {
     
 .circular--square { border-radius: 50%; }
 
+#footer {
+    position: fixed;
+    height: 50px;
+    background-color: white;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+input[type=email] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+button[type=submit] {
+  width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+@font-face {
+    font-family: 'tacofiestaregular';
+    src: url('https://assets.codepen.io/4014849/tacofiesta-webfont.woff2') format('woff2'),
+         url('https://assets.codepen.io/4014849/tacofiesta-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+  
 </style>
   
 </head>
+<meta charset="utf-8">
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1">
+    <link rel="stylesheet"
+          href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="icon" href="/favicon.ico">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+<link rel="stylesheet" href="css/styles.css?v=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+  </script>
+    
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+  </script>
+</head>  
+
 <body>
-  <img class="circular--square" src="Gif-Logo.gif" style="width:100px;height:100px";>
+  <img class="circular--square" src="https://assets.codepen.io/4014849/Gif-Logo-BW.gif" style="width:100px;height:100px";>
 
  <!-- <h1>Cromatoes </h1><br>Created by The <h2>"Cronos Cook" aka Genogrand.eth</h2>
     <p>An NFT Collection of Cromatoes.<br><br> Hope you Enjoy!</p>
  <a href="https://crypto.com/nft/collection/45cba6cf5447e08ab8f78fde41b40e45" class="button">VIEW THE COLLECTION</a><br><br>
   <a href="http://genogrand.com" class="button">ENTER GIVEAWAY</a>-->
+  <div class="container">
+        <h1 style="font-family:tacofiestaregular"; "color:red";>Coming Soon...</h1>
+      
+      
+        <a href="https://forms.gle/F4kBK6cj7Mssd27t7" class="btn btn-success pull-right" role="button">Join Us!</a>
+          
+        
+    </h1>
+    </div>
   
+  <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mgedpavv"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
   </body>
 <br>
-<!--<center><p style="background-color:white;" p class="footer-credit">All Rights Reserved <a href="http://tokintacos.xyz">TokinTacos™</a></p></center>
+<footer>
+  <div id="footer">
+<center>
+  <a href="https://www.instagram.com/genogrand/" class="fa fa-instagram"></a>
+<a href="https://twitter.com/genogrand_eth" class="fa fa-twitter"></a><br><p style="background-color:white;" p class="footer-credit">All Rights Reserved <a href="http://tokintacos.xyz">TokinTacos™</a></p></center>
+  </div>
+</footer>
+</html>
